@@ -43,7 +43,17 @@ h1 {
   font-style: normal;
 }
 
-.slider-content p{
+h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+
+.slider-content p {
   color: whitesmoke;
   font-size: 2rem;
   font-weight: 300;
@@ -58,10 +68,54 @@ h1 {
   margin-inline: auto;
 }
 
+.w25 {
+  width: 25%;
+}
+
+.w32 {
+  width: 32%;
+}
+
 .w40 {
   width: 40%;
 }
 
 .w60 {
   width: 60%;
+}
+
+.dark {
+  background: black;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.skill {
+  background:#fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+} 
+
+.skill img {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.skill h3 {
+  margin-top: 10px;
+  color: black;
+}
+
+.gap20 {
+  gap: 20px;
+}
+
+.flex {
+  display: flex;
 }
