@@ -22,8 +22,6 @@ Ce portfolio me permet de :
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Go**
-- **SQL**
 
 ---
 
