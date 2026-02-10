@@ -8,15 +8,31 @@
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
-        <div class="slider">
-            <img src="img/slider.jpg" class="slider-background">
+
+    <header class="header">
+        <div class="boxed ">
+            <div class="flex aligncenter space-between">
+                <a class="header-logo">
+                    <img src="img/portfolio_logo.png" alt="Photo du logo portfolio">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#A_propos">À propos</a></li>
+                    <li><a href="#Competences">Mes compétences</a></li>
+                    <li><a href="#Realisations">Mes réalisations</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+    </header>
+
+        <div class="slider" id="Accueil">
+            <img src="img/slider.jpg" class="slider-background" alt="Image de fond du portfolio de Yoni Truly-Masini">
             <div class="slider-content">
                 <h1>Yoni Truly-Masini</h1>
                 <p>Je suis Developpeur Informatique</p>
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" id="A_propos">
             <div class="boxed"> 
                 <div class="flex">
                     <div class="w70">
@@ -25,84 +41,63 @@
                            Actuellement à la recherche d'un stage en développement informatique, je souhaite mettre mes compétences techniques au service de projets et continuer à apprendre davantage.</p>
                     </div>
                     <div class="w30">
-                        <img src="img/photo_moi.jpg" class="profile-image">
+                        <img src="img/photo_moi.jpg" class="profile-image" alt="Photo de Yoni Truly Masini">
                     </div>
                 </div>
             </div>    
         </div>
 
-        <div class="section dark">
+        <div class="section dark" id="Competences">
             <div class="boxed text-center"> 
                 <h2>Découvrez mes compétences</h2>
                 <div class="flex gap20">
                     <div class="w25 skill">
-                        <img src="img/html5.png">
+                        <img src="img/html5.png" alt="HTML">
                         <h3>HTML</h3>
                     </div>
                         <div class="w25 skill">
-                        <img src="img/css.png">
+                        <img src="img/css.png" alt="CSS">
                         <h3>CSS</h3>
                     </div>
                         <div class="w25 skill">
-                        <img src="img/js.png">
+                        <img src="img/js.png" alt="JavaScript">
                         <h3>JavaScript</h3>
                     </div>
                         <div class="w25 skill">
-                        <img src="img/go.png">
+                        <img src="img/go.png" alt="GO">
                         <h3>GO</h3>
                     </div>
                         <div class="w25 skill">
-                        <img src="img/sql.png">
+                        <img src="img/sql.png" alt="SQL">
                         <h3>SQL</h3>
                     </div>
                     <div class="w25 skill">
-                        <img src="img/java.svg">
+                        <img src="img/java.svg" alt="Java">
                         <h3>Java</h3>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" id="Realisations">
             <div class="boxed text-center"> 
                 <h2>Mes réalisations</h2>
-                <div class="flex gap20 wrap space-between">
+                <div class="flex gap20 wrap justify-center">
                     <div class="w32 realisation">
-                        <a href="https://github.com/yonitrulymasini-gif/Quizz_go/tree/main">
-                            <img src="img/clavier_dor.png">
-                        </a>
-                    </div> 
-                    <div class="w32 realisation">
-                        <a href="https://github.com/yonitrulymasini-gif/Quizz_go/tree/main">
-                            <img src="img/clavier_dor.png">
-                        </a>
-                    </div>
-                    <div class="w32 realisation">    
-                        <a href="https://github.com/yonitrulymasini-gif/Quizz_go/tree/main">
-                            <img src="img/clavier_dor.png">
-                        </a>
-                    </div>  
-                    <div class="w32 realisation">    
-                        <a href="https://github.com/yonitrulymasini-gif/Quizz_go/tree/main">
-                            <img src="img/clavier_dor.png">
-                        </a>
-                    </div> 
-                    <div class="w32 realisation">    
-                        <a href="https://github.com/yonitrulymasini-gif/Quizz_go/tree/main">
-                            <img src="img/clavier_dor.png">
-                        </a>
-                    </div> 
-                    <div class="w32 realisation">    
-                        <a href="https://github.com/yonitrulymasini-gif/Quizz_go/tree/main">
-                            <img src="img/clavier_dor.png">
-                        </a>
-                    </div> 
+                        <a href="https://github.com/yonitrulymasini-gif/Quizz_go/tree/main" target="_blank" rel="noopener noreferrer">
+                            <img src="img/clavier_dor_v2.png" alt="Projet Quizz Go">
+                        </a> 
+                        </div>
+                        <div class="w32 realisation">
+                        <a href="https://github.com/ValorantTeam2/Jeux" target="_blank" rel="noopener noreferrer">
+                            <img src="img/sport_manager.jpg" alt="Projet Sport Manager">
+                        </a> 
                 </div>
             </div>
         </div>
     </div>
 
-        <div class="section dark">
+        <div class="section dark" id="Contact">
             <div class="boxed text-center"> 
                 <h2>Contactez-moi</h2>
                 <div class="flex space-between">
